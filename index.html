@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header class="container-fluid">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="/resources/logo-small.png" alt="Logo" class="d-inline-block align-text-top">
+                    <span>Shop Hero</span>
+                </a>
+
+                <form class="d-none d-md-flex d-md-block" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                </form>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fa-regular fa-user"></i></a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+
+
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="text-center col-6">
+                            <h4>Pro.Beyond</h4>
+                            <h3>iPhone <span>14 Pro</span></h3>
+                            <p>Created to change everything for the better. For everyone</p>
+                        </div>
+                        <div class="slide-img col-6">
+                            <img src="./resources/Iphone Image.png" class="d-block img-fluid" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="text-center col-6">
+                            <h4>Pro.Beyond</h4>
+                            <h3>IPhone <span>14 Pro</span></h3>
+                            <p>Created to change everything for the better. For everyone</p>
+                        </div>
+                        <div class="slide-img col-6">
+                            <img src="./resources/iphone-slide.png" class="d-block img-fluid" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="text-center col-6">
+                            <h4>Pro.Beyond</h4>
+                            <h3>Macbook <span>Pro</span></h3>
+                            <p>Created to change everything for the better. For everyone</p>
+                        </div>
+                        <div class="slide-img col-6">
+                            <img src="./resources/macbook-air.png" class="d-block img-fluid" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+    <section class="container-fluid d-flex featured-items">
+        <div class="row">
+            <div class="col-6 left-col">
+                <div class="c-item d-flex ipad">
+                    <div class="photo"><img src="./resources/ipad.png" class="img-fluid" alt="card-image-ipad">
+                    </div>
+                    <div class="info my-auto">
+                        <h5 class="card-heading">iPad 9</h5>
+                        <p class="card-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
+                        </p>
+                    </div>
+                </div>
+                <div class="c-item d-flex airpod">
+                    <div class="photo"><img src="./resources/airpod-max.png" class="img-fluid" alt="card-image-ipad">
+                    </div>
+                    <div class="info my-auto">
+                        <h5 class="card-heading">Apple AirPods Max</h5>
+                        <p class="card-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 right-col">
+                <div class="c-item d-flex macbook-air">
+                    <div class="info my-auto">
+                        <h5 class="card-heading">Macbook Air</h5>
+                        <p class="card-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                    </div>
+                    <div class="photo my-auto"><img src="./resources/macbook-air.png" class="img-fluid"
+                            alt="card-image-macbook"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid category-browse">
+        <div class="container">
+            <h3>Browse By Category</h3>
+            <ul class="list-inline d-flex text-center">
+
+                <li>
+                    <a href="#">
+                        <img src="/resources/icons/Phonesicon.svg" alt="">
+                        <span class="d-block mx-auto">Phones</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="/resources/icons/Smart Watchesicon.svg" alt="">
+                        <span class="d-block mx-auto">Smart Watches</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="/resources/icons/Camerasicon.svg" alt="">
+                        <span class="d-block mx-auto">Cameras</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="/resources/icons/Headphonesicon.svg" alt="">
+                        <span class="d-block mx-auto">Headphones</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="/resources/icons/Computersicon.svg" alt="">
+                        <span class="d-block mx-auto">Computers</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="/resources/icons/Gamingicon.svg" alt="">
+                        <span class="d-block mx-auto">Gaming</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="container-fluid product-section">
+        <div class="container d-flex product-nav">
+            <ul class="list-inline">
+                <li><a href="#" class="active">New Arrival</a></li>
+                <li><a href="#">Bestseller</a></li>
+                <li><a href="#">Featured Products</a></li>
+            </ul>
+        </div>
+        <div class="container d-flex text-center products">
+            <div class="product-item">
+                <img src="/resources/product-1.png" alt="">
+                <p class="name">Apple iPhone 14 Pro Max 128GB Deep Purple (MQ9T3RX/A)</p>
+                <p class="price">$299</p>
+                <a href="" class="btn buy-btn">Buy Now</a>
+            </div>
+            <div class="product-item">
+                <img src="/resources/product-2.png" alt="">
+                <p class="name">Blackmagic Pocket Cinema Camera 6k</p>
+                <p class="price">$299</p>
+                <a href="" class="btn buy-btn">Buy Now</a>
+            </div>
+            <div class="product-item">
+                <img src="/resources/product-3.png" alt="">
+                <p class="name">Apple Watch Series 9 GPS 41mm Starlight Aluminium Case</p>
+                <p class="price">$299</p>
+                <a href="" class="btn buy-btn">Buy Now</a>
+            </div>
+            <div class="product-item">
+                <img src="/resources/product.png" alt="">
+                <p class="name">AirPods Max Silver</p>
+                <p class="price">$299</p>
+                <a href="" class="btn buy-btn">Buy Now</a>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid sale-section">
+        <div class="row">
+            <div class="left-img col-3 text-start"><img src="/resources/sale-left.png" class="img-fluid" alt=""></div>
+            <div class="mid col-6 text-center my-auto">
+                <h3><span>11.11</span> Sale</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                </p>
+            </div>
+            <div class="right-img col-3 text-end"><img src="resources/sale-right.png" class="img-fluid" alt=""></div>
+        </div>
+    </section>
+    <footer>
+        <div class="container d-flex">
+            <div class="col">
+                <a class="navbar-brand" href="#">
+                    <img src="/resources/logo-small.png" alt="Logo" class="d-inline-block align-text-top">
+                    <span>Shop Hero</span>
+                </a>
+            </div>
+            <div class="col">
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li class="list-inline-item"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li class="list-inline-item"><a href="#"><i class="fa-brands fa-tiktok"></i></a></li>
+                    <li class="list-inline-item"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <h5>Services</h5>
+                <ul class="list-inline">
+                    <li><a href="#">Bonus program</a></li>
+                    <li><a href="#">Gift cards</a></li>
+                    <li><a href="#">Credit and payment</a></li>
+                    <li><a href="#">Service contracts</a></li>
+                    <li><a href="#">Non-cash account</a></li>
+                    <li><a href="#">Payment</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <h5>Assistance to the buyer</h5>
+                <ul class="list-inline">
+                    <li><a href="#">Find an order</a></li>
+                    <li><a href="#">Terms of delivery</a></li>
+                    <li><a href="#">Exchange and return of goods</a></li>
+                    <li><a href="#">Guarantee</a></li>
+                    <li><a href="#">Frequently asked questions</a></li>
+                    <li><a href="#">Terms of use of the site</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
